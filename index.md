@@ -7,7 +7,7 @@
 
 
 
-I am currently studying deep learning as a member of the [OpenAI Scholars Program](https://openai.com/blog/openai-scholars-spring-2020/)
+I am currently studying deep learning as a member of the [OpenAI Scholars Program](https://openai.com/blog/openai-scholars-spring-2020/).
 This is the home of my blog.
 
 I have a PhD in [Neuroscience from UC Berkeley](https://neuroscience.berkeley.edu/ph-d-program/),
