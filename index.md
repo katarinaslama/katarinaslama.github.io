@@ -7,7 +7,7 @@ I am currently studying deep learning as a member of the [OpenAI Scholars Progra
 This is the home of my blog.
 
 I have a PhD in [Neuroscience from UC Berkeley](https://neuroscience.berkeley.edu/ph-d-program/),
-where I studied attention using [intra-cranial recordings](https://www.nature.com/articles/s41593-018-0108-2)
+where I studied attention using [intracranial recordings](https://www.nature.com/articles/s41593-018-0108-2)
 in humans.
 
 Between college and graduate school, I worked as a laboratory manager in the
