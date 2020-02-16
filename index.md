@@ -7,8 +7,8 @@
 
 
 
-I am currently studying deep learning as a member of the [OpenAI Scholars Program]
-(https://openai.com/blog/openai-scholars-spring-2020/) This is the home of my blog.
+I am currently studying deep learning as a member of the [OpenAI Scholars Program](https://openai.com/blog/openai-scholars-spring-2020/)
+This is the home of my blog.
 
 <!-- And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file.
 
