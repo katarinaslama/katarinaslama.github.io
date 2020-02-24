@@ -13,7 +13,7 @@ Look at this figure from one of the earliest backpropagation papers (Rumelhart e
 
 (And if you're interested in how backpropagation works, I recommend [this blog post](http://cs231n.github.io/optimization-2/).)
 
-More recently, feature visualization comes in color. Check out this beautiful work from OpenAI's Clarity team ([link](https://distill.pub/2019/activation-atlas/)).
+More recently, feature visualization comes in color. Check out [this beautiful work from OpenAI's Clarity team](https://distill.pub/2019/activation-atlas/).
 
 ## Language models work for reasons
 
