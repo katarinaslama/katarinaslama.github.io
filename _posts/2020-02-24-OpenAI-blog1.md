@@ -59,9 +59,7 @@ So far, we can see that the loss is a function of the true labels and the predic
 <!-- > $\hat{y} = X\vec{w}+\vec{b}$ -->
 <img src="https://render.githubusercontent.com/render/math?math=\hat{y} = X\vec{w}+\vec{b}">
 
-...where X is a matrix of data, which will have the dimension
-<!-- $N\times2$,  -->
-<img src="https://render.githubusercontent.com/render/math?math=N\times2">,
+...where X is a matrix of data, which will have the dimension <img src="https://render.githubusercontent.com/render/math?math=N\times2">,
 
 $\vec{w}$ is our weight vector, which will have the dimension $2\times1$, and $\vec{b}$ is our bias vector, which will have the dimension $2\times1$. (Notice that the bias is a *parameter* of the model, just like the weights, and it is usually updated along with the weights.)
 
