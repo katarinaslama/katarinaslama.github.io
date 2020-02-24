@@ -56,11 +56,11 @@ Now assume that we're doing gradient descent on a **really shallow** network, al
 ...where <img src="https://render.githubusercontent.com/render/math?math=\y"> is the true labels for the data examples and <img src="https://render.githubusercontent.com/render/math?math=\hat{y}"> is the labels that our models predicted. (N is the number of training examples, but that's less important for the moment.)
 <!-- $\hat{y}$  -->
 
-So far, we can see that the loss is a function of the true labels and the predicted labels. How does this relate to the snazzy plot that we started with? Because we got the predicted labels in some way, specifically like this:
+So far, we can see that the loss is a function of the true labels and the predicted labels. How does this relate to the snazzy plot that we started with? We got the predicted labels in some way, specifically like this:
 
 <img src="https://render.githubusercontent.com/render/math?math=\hat{y} = X\vec{w}%2B\vec{b}">
 
-...where <img src="https://render.githubusercontent.com/render/math?math=X"> is a matrix of data, which will have the dimension <img src="https://render.githubusercontent.com/render/math?math=N\times2">. 
+...where <img src="https://render.githubusercontent.com/render/math?math=X"> is a matrix of data, which will have the dimension <img src="https://render.githubusercontent.com/render/math?math=N\times2">.
 <img src="https://render.githubusercontent.com/render/math?math=\vec{w}"> is our weight vector,
 which will have the dimension <img src="https://render.githubusercontent.com/render/math?math=2\times1">. <img src="https://render.githubusercontent.com/render/math?math=\vec{b}"> is our bias vector, which will have the dimension <img src="https://render.githubusercontent.com/render/math?math=\2\times1">. (Notice that the bias is a *parameter* of the model, just like the weights, and it is usually updated along with the weights.)
 
