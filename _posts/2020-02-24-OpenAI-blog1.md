@@ -21,7 +21,7 @@ Language models predict the next word (or "token" in a more general sense) given
 
 Consider this sentence: "John opens his suitcase and **XXX** it with clothes". If the model is able to suggest the word "fills" (a verb in third person singular), this suggests that the model has learned something about grammar.
 
-Now consider this sentence: "Kate could not fit the trophy into her suitcase, because **it** was too large." If the model can infer that "it" refers to the trophy rather than the suitcase, this suggests that the model has learned something about physics. Or we can say that it has "learned something about physics" in a very loose sense: Since the model learns from correlations in language, we don't have reason to believe that it actually has any sort of deep understanding of size in the real world.)
+Now consider this sentence: "Kate could not fit the trophy into her suitcase, because **it** was too large." If the model can infer that "it" refers to the trophy rather than the suitcase, this suggests that the model has learned something about physics. Or we can say that it has "learned something about physics" in a very loose sense: Since the model learns from correlations in language, we don't have reason to believe that it actually has any sort of deep understanding of size in the real world.
 
 I thought the idea was pretty cool.
 
