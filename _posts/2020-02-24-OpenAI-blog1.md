@@ -60,7 +60,8 @@ So far, we can see that the loss is a function of the true labels and the predic
 
 <img src="https://render.githubusercontent.com/render/math?math=\hat{y} = X\vec{w}%2B\vec{b}">
 
-...where <img src="https://render.githubusercontent.com/render/math?math=X"> is a matrix of data, which will have the dimension <img src="https://render.githubusercontent.com/render/math?math=N\times2">. <img src="https://render.githubusercontent.com/render/math?math=\vec{w}"> is our weight vector,
+...where <img src="https://render.githubusercontent.com/render/math?math=X"> is a matrix of data, which will have the dimension <img src="https://render.githubusercontent.com/render/math?math=N\times2">. 
+<img src="https://render.githubusercontent.com/render/math?math=\vec{w}"> is our weight vector,
 which will have the dimension <img src="https://render.githubusercontent.com/render/math?math=2\times1">. <img src="https://render.githubusercontent.com/render/math?math=\vec{b}"> is our bias vector, which will have the dimension <img src="https://render.githubusercontent.com/render/math?math=\2\times1">. (Notice that the bias is a *parameter* of the model, just like the weights, and it is usually updated along with the weights.)
 
 What gives? Our loss function actually seems to depend on a few things:
@@ -69,7 +70,7 @@ What gives? Our loss function actually seems to depend on a few things:
 
 It turns out that we usually don't hear about the loss depending on the data and the labels, because we take those as fixed. But importantly, you *can* mathematically compute the gradient with respect to the data if you want. You could turn the situation upside down, and assume that you have a network that is already trained, so you take its weights as fixed. Then you could see how some downstream value in the network, such as the activation of a given neuron, changes as you make a small update to the stimulus. And that's when you start to get into the exciting field of [interpretability](https://distill.pub/2018/building-blocks/).
 
-(In order to be able to share these thoughts to you, I just had to learn how to write math in markdown. See [this helpful documentation on math in markdown](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/) and [this hack](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b) to make github actually render it).
+<!-- (In order to be able to share these thoughts to you, I just had to learn how to write math in markdown. See [this helpful documentation on math in markdown](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/) and [this hack](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b) to make github actually render it). -->
 
 
 ## Meta-thoughts on the learning process
