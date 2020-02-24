@@ -56,9 +56,14 @@ Now assume that we're doing gradient descent on a **really shallow** network, al
 ...where $y$ is the true labels for the data examples and $\hat{y}$ is the labels that our models predicted. (N is the number of training examples, but that's less important for the moment.)
 
 So far, we can see that the loss is a function of the true labels and the predicted labels. How does this relate to the snazzy plot that we started with? Because we got the predicted labels in some way, specifically like this:
-> $\hat{y} = X\vec{w}+\vec{b}$
+<!-- > $\hat{y} = X\vec{w}+\vec{b}$ -->
+<img src="https://render.githubusercontent.com/render/math?math=\hat{y} = X\vec{w}+\vec{b}">
 
-...where X is a matrix of data, which will have the dimension $N\times2$, $\vec{w}$ is our weight vector, which will have the dimension $2\times1$, and $\vec{b}$ is our bias vector, which will have the dimension $2\times1$. (Notice that the bias is a *parameter* of the model, just like the weights, and it is usually updated along with the weights.)
+...where X is a matrix of data, which will have the dimension
+<!-- $N\times2$,  -->
+<img src="https://render.githubusercontent.com/render/math?math=N\times2">,
+
+$\vec{w}$ is our weight vector, which will have the dimension $2\times1$, and $\vec{b}$ is our bias vector, which will have the dimension $2\times1$. (Notice that the bias is a *parameter* of the model, just like the weights, and it is usually updated along with the weights.)
 
 What gives? Our loss function actually seems to depend on a few things:
 - The *parameters*, $w$ and $b$, which are the things that we update, and the things that I had usually thought that the loss depends on.
@@ -66,7 +71,7 @@ What gives? Our loss function actually seems to depend on a few things:
 
 It turns out that we usually don't hear about the loss depending on the data and the labels, because we take those as fixed. But importantly, you *can* mathematically compute the gradient with respect to the data if you want. You could turn the situation upside down, and assume that you have a network that is already trained, so you take its weights as fixed. Then you could see how some downstream value in the network, such as the activation of a given neuron, changes as you make a small update to the stimulus. And that's when you start to get into the exciting field of [interpretability](https://distill.pub/2018/building-blocks/).
 
-(In order to be able to share these thoughts to you, I just had to learn how to write math in markdown. [And you can, too!](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/)).
+(In order to be able to share these thoughts to you, I just had to learn how to write math in markdown. See [this helpful documentation on math in markdown](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/) and [this hack](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b) to make github actually render it).
 
 
 ## Meta-thoughts on the learning process
