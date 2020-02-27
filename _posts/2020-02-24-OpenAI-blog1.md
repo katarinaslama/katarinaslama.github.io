@@ -78,8 +78,12 @@ So far, we can see that the loss is a function of the true labels and the predic
 which will have the dimension 2x1. b is our bias vector, which will have the dimension 2x1. (Notice that the bias is a *parameter* of the model, just like the weights, and it is usually updated along with the weights.)
 
 What gives? Our loss function actually seems to depend on a few things:
-- The parameters, <img src="https://render.githubusercontent.com/render/math?math=w"> and <img src="https://render.githubusercontent.com/render/math?math=b"> , which are the things that we update, and the things that I had usually thought that the loss depends on.
-- But also the data, <img src="https://render.githubusercontent.com/render/math?math=X">, and the *labels*, <img src="https://render.githubusercontent.com/render/math?math=y"> .
+<!-- <img src="https://render.githubusercontent.com/render/math?math=w"> -->
+<!-- <img src="https://render.githubusercontent.com/render/math?math=b"> -->
+- The parameters, w and b, which are the things that we update, and the things that I had usually thought that the loss depends on.
+<!-- <img src="https://render.githubusercontent.com/render/math?math=X"> -->
+<!-- <img src="https://render.githubusercontent.com/render/math?math=y">  -->
+- But also the data, X, and the *labels*, y.
 
 It turns out that we usually don't hear about the loss depending on the data and the labels, because we take those as fixed. But importantly, you *can* mathematically compute the gradient with respect to the data. You could turn the situation upside down, and assume that you have a network that is already trained, so you take its weights as fixed. Then you could see how some downstream value in the network, such as the activation of a given neuron, changes as you make a small update to the stimulus. And that's when you start to get into the exciting field of [interpretability](https://distill.pub/2018/building-blocks/).
 
