@@ -8,7 +8,7 @@ I will assume that you have an [azure virtual machine (VM)](https://azure.micros
 1. In a web browser, open your azure portal and go to your VM.
     1. "Stop" your VM, and wait until the machine is stopped.
     1. Select "Disks" from the panel on the left.
-        ![](/images/mounting/s1-select-disks.png "S1")
+        ![](/images/mounting/s1-select-disks.png "")
         1. Select "+ Add data disk".
         1. Under the "Name" dropdown menu, select "Create disk".
             ![](/images/mounting/s2-create-disk.png "S2")
