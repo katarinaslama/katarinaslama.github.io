@@ -52,9 +52,7 @@ When I think about gradient descent, I typically think of [a picture like this](
 Now assume that we're doing gradient descent on a **really shallow** network, also known as a linear regression, with just two weights just like in the figure. Let's also assume that we use [mean squared error](https://en.wikipedia.org/wiki/Mean_squared_error) as our loss function. Our loss is calculated like this:
 <!-- {$L(y,\hat{y}) = \frac{1}{N}\sum_{i=0}^{N}(y_i-\hat{y}_i)^2$} -->
 <!-- <img src="https://render.githubusercontent.com/render/math?math=L(y,\hat{y}) = \frac{1}{N}\sum_{i=0}^{N}(y_i-\hat{y}_i)^2"> -->
-$$
-L(y,\hat{y}) = \frac{1}{N}\sum_{i=0}^{N}(y_i-\hat{y}_i)^2
-$$
+$L(y,\hat{y}) = \frac{1}{N}\sum_{i=0}^{N}(y_i-\hat{y}_i)^2$
 
 ...where <img src="https://render.githubusercontent.com/render/math?math=\y"> is the true labels for the data examples and <img src="https://render.githubusercontent.com/render/math?math=\hat{y}"> is the labels that our models predicted. (N is the number of training examples, but that's less important for the moment.)
 <!-- $\hat{y}$  -->
