@@ -1,3 +1,7 @@
+<style>
+.reveal section img { background:none; border:none; box-shadow:none; }
+</style>
+
 # OpenAI Scholars: First Steps
 
 I am very fortunate to have the opportunity to spend this spring delving into deep learning through the [OpenAI Scholars Program](https://openai.com/blog/openai-scholars-spring-2020/). My excellent mentor is [Johannes](https://jotterbach.github.io/). [This](https://katarinaslama.github.io/2020/02/21/syllabusblog.html) is a draft syllabus for the first half of the program, and the current post is a reflection on my first baby steps in AI.
