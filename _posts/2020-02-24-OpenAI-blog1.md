@@ -66,7 +66,7 @@ Now assume that we're doing gradient descent on a **really shallow** network, al
 
 So far, we can see that the loss is a function of the true labels and the predicted labels. How does this relate to the snazzy plot that we started with? We got the predicted labels in some way, specifically like this:
 
-<img src="https://render.githubusercontent.com/render/math?math=\hat{y} = X\vec{w}%2B\vec{b}">
+<img src="https://render.githubusercontent.com/render/math?math=\hat{y} = X\vec{w}%2B\vec{b}" style="background:none; border:none; box-shadow:none;">
 
 <!-- <img src="https://render.githubusercontent.com/render/math?math=X"> -->
 <!-- <img src="https://render.githubusercontent.com/render/math?math=N\times2"> -->
