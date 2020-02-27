@@ -35,6 +35,7 @@ titles_from_headings:
 
 highlighter: rouge
 markdown: kramdown
+permalink: pretty
 kramdown:
   # math_engine: katex
   input: GFM
