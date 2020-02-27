@@ -8,10 +8,10 @@ I will assume that you have an [azure virtual machine (VM)](https://azure.micros
 1. In a web browser, open your azure portal and go to your VM.
     1. "Stop" your VM, and wait until the machine is stopped.
     1. Select "Disks" from the panel on the left.
-        ![](/images/mounting/s1-select-disks.png "")
+        ![](/images/mounting/s1-select-disks.png "Fig 1")
         1. Select "+ Add data disk".
         1. Under the "Name" dropdown menu, select "Create disk".
-            ![](/images/mounting/s2-create-disk.png "S2")
+            ![](/images/mounting/s2-create-disk.png "Fig 2")
             1. Give it a name.
             1. Change the size to fit your needs. I recommend 2048 GB = 2T.
             1. (You can leave the rest as the defaults.)
@@ -19,18 +19,18 @@ I will assume that you have an [azure virtual machine (VM)](https://azure.micros
             1. Select "Save". (...and wait).
     1. Return to your VM (by selecting "Overview" in the left panel), and select "Start".  (It might help to refresh the page, so you can see once it loads). (...and wait).
         1. While you wait, you can observe your machine as it's starting up by selecting "Serial console" in the left-hand panel. (If your VM throws a tantrum in the future, the serial console can be your point of entry for logging in and rescuing your work.)
-        ![](/images/mounting/s3-serial-console.png "S3")
+        ![](/images/mounting/s3-serial-console.png "Fig 3")
 
 
 2. Go to terminal on your local computer, and ssh into your VM.
     1. In your VM terminal window, type `lsblk`.
-        ![](/images/mounting/s4-lsblk.png "S4")
+        ![](/images/mounting/s4-lsblk.png "Fig 4")
         1. Looking at the output of `lsblk`, think of each row as a hard drive. Search for the one (under `NAME`) that has the large storage (under `SIZE`) that you selected. In my case, it's `sdc` because I can see that it has `SIZE`, `2T`.
         1. You can now set a variable to help you keep track of your disk name: `BIGDISK="sdc"`.
     1. Now pay attention, because if you get this wrong, you might destroy your VM (but no pressure ofc):
         - In your VM terminal, type: `sudo fdisk /dev/$BIGDISK`
         - In **my** case, this will be: `sudo fdisk /dev/sdc`
-        ![](/images/mounting/s5-fdisk.png "S5")
+        ![](/images/mounting/s5-fdisk.png "Fig 5")
     1. In the fdisk program (after `Command (m for help):`), type:
         1. `g` (This creates a [partition table](https://en.wikipedia.org/wiki/Partition_table) on your disk.)
         1. `n` (This creates a partition.)
@@ -53,7 +53,7 @@ I will assume that you have an [azure virtual machine (VM)](https://azure.micros
     1. Next, we will edit the [`fstab`](https://help.ubuntu.com/community/Fstab) configuration file: This will make our disk automatically mount to our preferred location (`/largedisk`) in our file system whenever you boot your VM. (Trust me, you don't want to repeat this process every morning.) In your VM terminal, type:
         - `sudo nano /etc/fstab`
             - [`nano`](https://en.wikipedia.org/wiki/GNU_nano) is a text editor that allows you to look at the `fstab` file and add a line to it.
-        ![](/images/mounting/s6-edit-fstab.png "S6")
+        ![](/images/mounting/s6-edit-fstab.png "Fig 6")
         - In the `fstab` file, which you are accessing through the `nano` text editor, add the following words, separated by space(s), all on a single line:
             - `LABEL=bigdisk    /largedisk    ext4    defaults,rw    1    2`
                 - `LABEL` means: Look for a file system that has this label. Recall that we set the label to `bigdisk` previously.
@@ -74,10 +74,10 @@ I will assume that you have an [azure virtual machine (VM)](https://azure.micros
 1. In your VM terminal, type:
     - `mount | grep largedisk`
         - You should now see an output like this:
-        ![](/images/mounting/s7-mount-grep.png "S7")
+        ![](/images/mounting/s7-mount-grep.png "Fig 7")
     - `df -h | grep largedisk`
         - You should now see an output, which shows the (correct) amount of storage on your disk:
-        ![](/images/mounting/s8-df-h-grep.png "S8")
+        ![](/images/mounting/s8-df-h-grep.png "Fig 8")
     - `sudo chown $USER /largedisk`
         - This changes the owner of your big disk, so you can write to it without calling `sudo` all the time.
 1. You are **DONE!** (If you like, you might do `touch /largedisk/success.txt` just for the satisfaction.) Happy saving.
