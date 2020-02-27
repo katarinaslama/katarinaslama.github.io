@@ -50,9 +50,8 @@ In the end, it turned out that my particular batch size conundrum was caused by 
 When I think about gradient descent, I typically think of [a picture like this](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/35389/versions/1/screenshot.png). Some version of this picture is shown in most introductory machine learning and data science classes. It shows the loss function (the curved sheet) as a function of weights (the axes on the bottom) in a simple neural network, with just two weights. We want to update our weights so that we find the bottom (minimum) of this loss function. That's a basic intuition for gradient descent.
 
 Now assume that we're doing gradient descent on a **really shallow** network, also known as a linear regression, with just two weights just like in the figure. Let's also assume that we use [mean squared error](https://en.wikipedia.org/wiki/Mean_squared_error) as our loss function. Our loss is calculated like this:
-<!-- {$L(y,\hat{y}) = \frac{1}{N}\sum_{i=0}^{N}(y_i-\hat{y}_i)^2$} -->
-<!-- <img src="https://render.githubusercontent.com/render/math?math=L(y,\hat{y}) = \frac{1}{N}\sum_{i=0}^{N}(y_i-\hat{y}_i)^2"> -->
-$L(y,\hat{y}) = \frac{1}{N}\sum_{i=0}^{N}(y_i-\hat{y}_i)^2$
+<img src="https://render.githubusercontent.com/render/math?math=L(y,\hat{y}) = \frac{1}{N}\sum_{i=0}^{N}(y_i-\hat{y}_i)^2">
+<!-- $L(y,\hat{y}) = \frac{1}{N}\sum_{i=0}^{N}(y_i-\hat{y}_i)^2$ -->
 
 ...where <img src="https://render.githubusercontent.com/render/math?math=\y"> is the true labels for the data examples and <img src="https://render.githubusercontent.com/render/math?math=\hat{y}"> is the labels that our models predicted. (N is the number of training examples, but that's less important for the moment.)
 <!-- $\hat{y}$  -->
