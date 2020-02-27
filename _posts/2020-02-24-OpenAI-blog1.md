@@ -13,7 +13,7 @@ Here are some nuggets of insight that I found exciting in my first week. Please 
 ## Interpretability was a thing in 1986
 
 Look at this figure from one of the earliest backpropagation papers (Rumelhart et al., 1986, [link](http://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf)):
-![](/images/interpretability-1986.png "Interpretability v. 1986" style="background:none; border:none; box-shadow:none;")
+![](/images/interpretability-1986.png "Interpretability v. 1986")
 
 (And if you're interested in how backpropagation works, I recommend [this blog post](http://cs231n.github.io/optimization-2/).)
 
@@ -99,19 +99,19 @@ Let us pause to reflect on the expression "It can easily be seen that..." In the
 One of the things I'm really interested in understanding during my time at OpenAI is language models, and especially transformer networks. I was pointed to [this excellent blog post](https://nlp.seas.harvard.edu/2018/04/03/attention.html), which walks you through the first [transformer paper](https://arxiv.org/abs/1706.03762) and provides a complete code implementation in pytorch.
 
 My first stumbling block was this intimidating diagram:
-![](/images/transformer-architecture.png "Transformer architecture" style="background:none; border:none; box-shadow:none;")
+![](/images/transformer-architecture.png "Transformer architecture")
 
 Looking at this, I realized that I have virtually no experience looking at neural network architectures, and very little experience even with other circuit diagrams.
 (I did dedicate some deliberate practice to learning to see electrical circuit diagrams at one point during my PhD, with great help from a course at [the Crucible in Oakland](https://www.thecrucible.org/)):
 
-![](/images/circuit-diagram.png "Circuit diagram" style="background:none; border:none; box-shadow:none;")
+![](/images/circuit-diagram.png "Circuit diagram")
 
 
 Returning to the intimidating transformer diagram:
-![](/images/transformer-architecture.png "Transformer architecture" style="background:none; border:none; box-shadow:none;")
+![](/images/transformer-architecture.png "Transformer architecture")
 
 I realized that I have virtually no (cognitive or mental) tools for understanding this type of image, and what was worse was that I seemed to avoid looking at it at all. For example, I'm pretty sure that I'm literate, so if you had shown me the image and then covered it, and asked me "Was the word 'multi-head' in it?" I should have been able to answer you. But I don't think I would have been. There is nothing in particular preventing me from being able to read that word. But the fact that I knew that this is a type of image that I don't know how to look at, made me avoid looking at it at all. When I identified this mental blocker, I decided to draw a copy of the diagram, in order to force my brain to take in whatever information that it could take in, and to overtly raise questions about parts that were confusing. My drawing looks like this:
-![](/images/transformer-drawing.png "Transformer drawing" style="background:none; border:none; box-shadow:none;")
+![](/images/transformer-drawing.png "Transformer drawing")
 This exercise, along with a set of really nice supplementary materials like [this blog post](http://jalammar.github.io/illustrated-transformer/) and these videos ([video 1](https://www.youtube.com/watch?v=AFkGPmU16QA), [video 2](https://www.youtube.com/watch?v=KzfyftiH7R8)), enabled me to start to break the diagram apart. At this point I could probably tell you a little story about what each part of the architecture is doing. For example, in retrospect, "squiggly" means that the authors of the paper used sine and cosine waves to encode the position of the tokens, since transformer models - [unlike recurrent neural networks (RNNs)](https://en.wikipedia.org/wiki/Recurrent_neural_network) - don't natively have any sort of concept of the ordering of tokens in a sequence. We're becoming more friendly with each other, the diagram and I.
 
 
