@@ -119,7 +119,7 @@ This exercise, along with a set of really nice supplementary materials like [thi
 
 Continuing on [the annotated transformer blog post](https://nlp.seas.harvard.edu/2018/04/03/attention.html), I found that belaboring the diagram in detail was helpful in a way, but it also had me neglect the rest of the blog post. It seemed like it would be useful to at least get an overview of what's in there, without spending an unreasonable amount of time on every single paragraph and line of code (googling terms and commands and going off on every possible tangent of things I don't yet know). So I decided to read the whole post once without stopping. Then I wrote down what I could remember of what I had read. That exercise went approximately like this:
 
-> *I took a speed-reading course and read War and Peace in twenty minutes. It involves Russia*.
+> # I took a speed-reading course and read War and Peace in twenty minutes. It involves Russia.
 (Woody Allen)
 
 In fact, the only parts of that read that I could recall were things that my mentor, Johannes, had specifically pointed out to me (verbally) before. So that was interesting. It seems like it would be a good idea to deliberately hack what sort of things enable you to remember and understand, and to be able to apply them more quickly and efficiently. So this is an open question for you, dear reader:
