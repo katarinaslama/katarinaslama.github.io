@@ -57,8 +57,9 @@ Now assume that we're doing gradient descent on a **really shallow** network, al
 <!-- <img src="https://render.githubusercontent.com/render/math?math=L(y,\hat{y}) = \frac{1}{N}\sum_{i=0}^{N}(y_i-\hat{y}_i)^2"> -->
 $$L(y,\hat{y}) = \frac{1}{N}\sum_{i=0}^{N}(y_i-\hat{y}_i)^2$$
 
-...where <img class="plain" src="https://render.githubusercontent.com/render/math?math=\y"> is the true labels for the data examples and <img src="https://render.githubusercontent.com/render/math?math=\hat{y}"> is the labels that our models predicted. (N is the number of training examples, but that's less important for the moment.)
+...where <img class="plain" src="https://render.githubusercontent.com/render/math?math=\y"> is the true labels for the data examples and <img src="https://render.githubusercontent.com/render/math?math=\hat{y}" style="background:none; border:none; box-shadow:none;"> is the labels that our models predicted. (N is the number of training examples, but that's less important for the moment.)
 <!-- $\hat{y}$  -->
+
 
 So far, we can see that the loss is a function of the true labels and the predicted labels. How does this relate to the snazzy plot that we started with? We got the predicted labels in some way, specifically like this:
 
