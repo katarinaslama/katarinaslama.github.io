@@ -3,7 +3,7 @@
 For this tutorial, I owe huge thanks to my fellow OpenAI Scholar, [Alethea](https://aletheap.github.io/), who taught me how to do this. This is a writeup of Alethea's in-person tutorial for me.
 
 I will assume that you have an [azure virtual machine (VM)](https://azure.microsoft.com/en-us/services/virtual-machines/) already set up, and that you're finding that you don't have enough disk space. I also assume that you chose an Ubuntu (Linux) VM.
-(If you're just getting started with virtual machines, I recommend a [preconfigured data science machine](https://azure.microsoft.com/en-us/services/virtual-machines/data-science-virtual-machines/))
+(If you're just getting started with virtual machines, I recommend a [preconfigured data science machine](https://azure.microsoft.com/en-us/services/virtual-machines/data-science-virtual-machines/)).
 
 1. In a web browser, open your azure portal and go to your VM.
     1. "Stop" your VM, and wait until the machine is stopped.
