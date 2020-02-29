@@ -69,8 +69,8 @@ I am very lucky to have the opportunity to work on-site at OpenAI. I want to mak
 
 ##### Convolutional Neural Networks (CNNs)
 - ** Lecture notes on CNNs by Andrej Karpathy, ([link](http://cs231n.github.io/convolutional-networks/))
-- ** ImageNet paper by Krizhevsky, Sutskever, and Hinton  ([link](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf))
-- ** ResNet paper by He et al. ([link](http://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf))
+- ** AlexNet/ImageNet paper by Krizhevsky, Sutskever, and Hinton  ([link](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf))
+- ** The ResNet paper by He et al. ([link](http://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf))
 - ResNet blog post ([link](http://torch.ch/blog/2016/02/04/resnets.html))
 
 ##### Batches and batch size
@@ -79,7 +79,7 @@ I am very lucky to have the opportunity to work on-site at OpenAI. I want to mak
     - Training ImageNet in four minutes ([link](https://arxiv.org/abs/1807.11205))
 
 ##### Other classical papers
-** There is a document of fundamental DL papers floating around the office with the provocative preface, "If you read and understand all these papers, you know almost all the machine learning that’s worth knowing." I plan to select a paper from this list for my reading mornings about once a week. (How could I not?)
+- ** The variational autoencoder paper by Kingma and Welling ([link](https://arxiv.org/abs/1312.6114))
 
 #### Attention and transformers
 - ** Attention is All You Need paper by Vaswani et al. (2017) ([link](https://arxiv.org/pdf/1706.03762.pdf))
@@ -89,6 +89,10 @@ I am very lucky to have the opportunity to work on-site at OpenAI. I want to mak
 - The illustrated GPT-2 blog post by Jay Alammar: I should focus on the differences between GPT-2 and BERT ([link](http://jalammar.github.io/illustrated-gpt2/))
 - Lilian Weng's blog post on language models: Focus on the differences between GPT-2 and BERT ([link](https://lilianweng.github.io/lil-log/2019/01/31/generalized-language-models.html))
 - The Reformer paper, supposedly a "better" implementation of the transformer ([link](https://arxiv.org/abs/2001.04451)): Interesting, but complicated. Not the first thing to try to implement.
+
+#### Neural networks for speech recognition and audio data
+- ** wav2vec paper by Schneider et al. ([link](https://arxiv.org/abs/1904.05862))
+- ** wav2letter paper by Collobert, Puhrsch, and Synnaeve ([link](https://arxiv.org/abs/1609.03193))
 
 #### Interpretability
 - ** The building blocks of interpretability on Distill ([link](https://distill.pub/2018/building-blocks/))
@@ -100,9 +104,11 @@ I am very lucky to have the opportunity to work on-site at OpenAI. I want to mak
 #### AI safety (personal interest)
 - Concrete problems in AI safety paper ([link](https://arxiv.org/abs/1606.06565))
 
-#### Definitions of intelligence (personal interest)
-- Shane Legg's thesis [link](http://www.vetta.org/documents/Machine_Super_Intelligence.pdf)
-- More recent paper, "On the measure of intelligence" [link](https://arxiv.org/abs/1911.01547)
+#### Links between AI and neuroscience (personal interest)
+- ** DeepMind's Psychlab paper by Leibo et al. ([link](https://arxiv.org/abs/1801.08116))
+- Definitions of intelligence (personal interest)
+  - Shane Legg's thesis [link](http://www.vetta.org/documents/Machine_Super_Intelligence.pdf)
+  - More recent paper, "On the measure of intelligence" [link](https://arxiv.org/abs/1911.01547)
 
 ### Coding
 #### Fundamentals
