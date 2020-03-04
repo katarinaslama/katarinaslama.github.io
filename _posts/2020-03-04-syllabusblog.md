@@ -54,7 +54,7 @@ I am very lucky to have the opportunity to work on-site at OpenAI. I want to mak
 ### Reading
 
 #### Background for reading papers more effectively
-- The Deep Learning Book Chapter 1 ([link](https://www.deeplearningbook.org/))
+- ** The Deep Learning Book Chapter 1 ([link](https://www.deeplearningbook.org/))
 - Andrew Ng's Deep Learning Course ([link](https://www.deeplearning.ai/))
 
 #### Fundamentals
