@@ -89,8 +89,8 @@ I am very lucky to have the opportunity to work on-site at OpenAI. I want to mak
   - **Next 1:**: Read GPT-2 and perplexity sections from this post.
 - **Next 2:** Evaluation metrics for language models, such as "perplexity" ([link](https://thegradient.pub/understanding-evaluation-metrics-for-language-models/))
 - **Next 3:** Byte pair encoding: Useful blog with code ([link](https://leimao.github.io/blog/Byte-Pair-Encoding/))
-- Byte pair encoding paper ([link](https://arxiv.org/abs/1508.07909))
 - Lilian Weng's post about word embeddings ([link](https://lilianweng.github.io/lil-log/2017/10/15/learning-word-embedding.html))
+- Byte pair encoding paper ([link](https://arxiv.org/abs/1508.07909))
 - BERT paper by Devlin et al. (2019) ([link](https://arxiv.org/pdf/1810.04805.pdf))
 - GPT paper by Radford et al. (2018) ([link](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf))
 - The illustrated GPT-2 blog post by Jay Alammar: I should focus on the differences between GPT-2 and BERT ([link](http://jalammar.github.io/illustrated-gpt2/))
