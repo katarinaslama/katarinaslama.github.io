@@ -26,10 +26,9 @@ This is what I ask from myself for my Scholars period: Work on your most importa
 
 **Afternoons** are for coding; making progress on my candidate project; or trying toy problems. Because coding naturally involves motor actions, which are easier to sustain even when I'm somewhat tired, it's a great task for the afternoon. Afternoons also aren't amazing and magical the same way that mornings are, so you might as well meet your error messages and do your debugging at that time.
 
-
 **Evenings** are for: overflow work (caused by over-optimistic time estimates); watching light video explanations of concepts that I'm studying; or writing and reflection. Sometimes evenings are for hanging out with friends or knitting.
 
-**Update**: I received feedback that I shouldn't underestimate the challenges that I will encounter with the coding component of my work. This rings especially true to me since my background is not in software engineering. Honestly, I don't yet have a good enough feel for the size and type of challenges I will encounter when learning how to run neural networks on GPUs. I will probably need to rethink how to integrate this with my day-to-day time usage: It might be that I should divide programming into *hard programming* for mornings versus *easy programming* for afternoons. I'll let you know how it goes.
+**Update**: I received feedback that I shouldn't underestimate the challenges that I will encounter with the coding component of my work. This rings especially true to me since my background is not in software engineering. Honestly, I don't yet have a good enough feel for the magnitude and type of challenges I will encounter when learning how to run neural networks on GPUs. I will probably need to rethink how to integrate this with my day-to-day time usage: It might be that I should divide programming into *hard programming* for mornings versus *easy programming* for afternoons. I'll let you know how it goes.
 
 ## Goals
 
