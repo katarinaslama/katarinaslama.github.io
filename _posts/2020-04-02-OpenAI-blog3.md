@@ -2,7 +2,7 @@
 
 This blog is about two very nifty `PyTorch` tools, the `dataset` and the `dataloader`. My main learning resource was [this tutorial](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html), which you might find useful too.
 
-## The `dataset`
+## The dataset
 
 I don't know the person who invented the `PyTorch dataset`, but I picture that their thought process was as follows: "I train a lot of neural networks on a lot of different kinds of data. Each time, I have to write a new set of functions for reading, processing, and feeding that data into a neural network. I just wish I could work with, and index into, any dataset as easily as you index into a [Python list](https://www.youtube.com/watch?v=zEyEC34MY1A)." And so, the `dataset` was born. (I conjured this story up in my mind: I make no claims to veracity.)
 
@@ -22,7 +22,7 @@ In my case, the data that I wanted to feed into the CNN from CIFAR10 tutorial ab
 
 Importantly, this implementation means that I read from disk each time I draw an example image. I learned from my mentor that this will substantially slow down network training. Hence, moving forward, I will rewrite my dataset so that it loads all the data into memory at once. To load an example, the dataloader would then index into this preloaded array, which is a much faster operation than reading from disk.
 
-## The `dataloader`
+## The dataloader
 
 OK, so you have a `dataset` that allows you to get the length of your dataset, and read individual items from it as simply as if it were a list. What do you want to do next? That's right, you want to draw examples from your dataset to train your neural network. Specifically, you would want to draw samples in [batches](https://machinelearningmastery.com/difference-between-a-batch-and-an-epoch/); you might want to randomize the order of the presentation of batches to your neural network; and you might want to parallelize these operations, because neural network training is computationally heavy.
 
@@ -32,17 +32,11 @@ A `dataloader` allows you to do all of these things. You can think of it as a **
 
 You can create a very simple dataloader with the following line of code:
 
-`dataloader = dataloader(my_dataset,
-                         batch_size=1, # just read one example at a time
-                         shuffle=False, # don't shuffle
-                         num_workers=1) # don't parallelize`
+`dataloader = dataloader(my_dataset, batch_size=1, shuffle=False, num_workers=1)`
 
 This dataloader is literally just a simple iterator for your dataset. If you want to use some of its fancier features, you can just change some of the arguments, like so:
 
-`dataloader = dataloader(my_dataset,
-                        batch_size=4,
-                        shuffle=True,
-                        num_workers=4)`
+`dataloader = dataloader(my_dataset, batch_size=4, shuffle=True, num_workers=4)`
 
 ## Conclusion
 
