@@ -38,6 +38,8 @@ This dataloader is literally just a simple iterator for your dataset. If you wan
 
 `dataloader = dataloader(my_dataset, batch_size=4, shuffle=True, num_workers=4)`
 
+In this case, you're including a batch size of four; you're shuffling your training examples before presenting them to the network; and you're parallelizing your script with four workers.
+
 ## Conclusion
 
 That's it. If you have successes or struggles with these tools, perhaps if you think of cool"power user" hacks for them, or if you have feedback on this blog post, I would love to hear from you.
