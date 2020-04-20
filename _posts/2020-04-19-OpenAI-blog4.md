@@ -1,12 +1,16 @@
 # OpenAI Scholars: Fourth Steps - Exploding my Activations
 
-I have been working on building a "minimum viable" end-to-end network for image classification as a starting point for my project. I recently had the following curious experience: After training my network for the very first time, the model showed over 90% accuracy on my training set. It looked like I was off to a great start! :-D
+<style>
+.reveal section img { background:none; border:none; box-shadow:none; }
+</style>
+
+I have been working on building a minimum viable end-to-end network for image classification as a starting point for my project. I recently had the following curious experience: After training my network for the very first time, the model showed over 90% accuracy on my validation set. It looked like I was off to a great start! :-D
 
 Alas, as I took a closer look at my training loop, I recalled that the network had only trained on a handful of batches. What was even worse was that, once I took a look at my predictions to get a feel for where the network performed well, I found that most of them were NaNs! So this network, which hadn't had an opportunity to learn much at all, and which wasn't even predicting anything at training, was somehow reaching "high" test performance. My conclusion at that point: "Deep learning is truly magical."
 
 ![](/images/blog4/miracle_cartoon.jpg)
 
-Upon reflection, I realized that the cause for the high validation-set performance with barely any training might have been the classifier picking up on my imbalanced classes: 7.6% were targets while 92.4% were non-targets. Hence if the network (by chance or otherwise) predicted non-target for every single example, that alone would ensure a performance greater than 90%.
+Upon reflection, I realized that the cause for the high validation-set performance with barely any training might have been the classifier picking up on my imbalanced classes: 7.6% were targets while 92.4% were non-targets. Hence if the network predicted non-target for every single example, that alone would ensure a performance greater than 90%.
 
 Upon investigation and after consultation with my fellow scholar, [Alethea](https://aletheap.github.io/) and my mentor [Johannes](https://jotterbach.github.io/), it turns out that the reason for the NaNs in the training set output was that my activations were exploding, as an effect of "exploding gradients" (see [this blog post](https://machinelearningmastery.com/exploding-gradients-in-neural-networks/) for an introduction to the phenomenon). One way to get exploding gradients is if you fail to normalize your input: If some values in your input are very large, this can cause the learned weights in your network to, correspondingly, become very large, and at some point the network can no longer learn.
 
