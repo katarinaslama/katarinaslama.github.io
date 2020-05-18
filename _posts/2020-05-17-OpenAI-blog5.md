@@ -28,7 +28,7 @@ Do not start your literature review with the goal of "doing a literature review"
 This is really important, and it's often the hardest part with an infinity-project like a literature review. In my case, the done-point was when I had completed the project proposal. But how do I know that my proposal is good enough? In practice, for me, it was when the deadline hit. If you have come up with better metrics and markers for when to consider a project completed, please do let me know.
 
 ### 3. Define your questions.
-When doing a literature review, it's critical to know what information you're searching for. Trying to absorb all the information contained in a dense document is rarely a good plan. In my case, my questions fell out of my first, naive project proposal draft. I also talked my project through with a friend, who is a more experienced researcher. He offered the following thought points for guidance to a literature reivew associated with a new project:
+When doing a literature review, it's critical to know what information you're searching for. Trying to absorb all the information contained in a dense document is rarely a good plan. In my case, my questions fell out of my first, naive project proposal draft. I also talked my project through with a [friend](https://sites.google.com/site/falklieder/home), who is a more experienced researcher. He offered the following thought points for guidance to a literature reivew associated with a new project:
 
 1. The goal for your literature review should be to identify the problem that your project will solve. Your project might either aim to solve a new problem, or improve on an existing method.
 2. Use the literature revew to identify *gaps* in the literature: What do we not yet know?
