@@ -4,7 +4,7 @@ The [OpenAI Scholars](https://openai.com/blog/openai-scholars-spring-2020/), and
 
 Fortunately, I'm in good company. In a previous life as a young aspiring neuroscientist, I once attended a talk by [David Hubel](https://www.nobelprize.org/prizes/medicine/1981/hubel/facts/). When asked for tips about how to "keep up with the literature", I recall that Professor Hubel responded: "You know, at some point in your career, you have to decide if you want to be a consumer - or a producer." He further elaborated that he would only really look at papers that his [advisor](https://en.wikipedia.org/wiki/Stephen_Kuffler) or his long-term collaborator [Torsten Wiesel](https://en.wikipedia.org/wiki/Torsten_Wiesel), pointed him too.
 
-![David Hubel was also not a fan of literature reviews. He turned out OK.](/images/hubel.jpg)
+![](/images/hubel.jpg "David Hubel was also not a fan of literature reviews. He turned out OK.")
 
 And there's good reason to want to avoid literature reviews. To begin with, the problem formulation is intractable: "Know everything." If you've spent any amount of time around academics, it will soon become obvious that this is exactly what your colleagues expect from you. "Oh you have**n't** read that paper?" The assumption is that you have read every paper there is.
 
