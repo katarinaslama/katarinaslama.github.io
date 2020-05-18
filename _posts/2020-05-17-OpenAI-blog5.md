@@ -20,6 +20,10 @@ I really wish there had been a series of books like that available for me as a b
 
 ## How to do a literature review
 
+<style>
+.reveal section img { background:none; border:none; box-shadow:none; }
+</style>
+
 ### 1. Start with your goal.
 
 Do not start your literature review with the goal of "doing a literature review". Notice that such a goal does not have an end point when you can look at your work in satisfaction and notice that you are done. (Unless you have 288 years to spare). Instead, start with identifying your goal: Why are you doing this literature review? In my case, I had completed a spreadsheet with 50 papers, including their main points, type of neural recording, type of network architecture, a usefulness rating etc., by the time I realized that I had not identified my goal. I had to take a deliberate step back to recall that one goal of my literature review was to write a project proposal. Hence, my literature review should be tailored to that goal. Once I realized that, I decided to approach my work from the opposite direction: I drafted project proposal "blind" to the literature, i.e., I wrote out a draft in bullet points with only the information I had in my mind. Once I had done that, it became quite obvious where I had knowledge gaps. Those knowledge gaps created the questions that I needed to search for in my literature review (see point 3 below.)
