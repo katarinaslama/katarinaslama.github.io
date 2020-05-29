@@ -46,7 +46,7 @@ I think this is self-explanatory, but please let me know if not! One thing to ke
 
 Just stop. Seriously. When you're done, you should stop. Go take a walk outside.
 
-## How to avoid doing a literature review
+## How to avoid doing literature reviews
 
 The first section described the second-best way of doing a literature review. The best way to do a literature review is to not do a literature review. The art of avoiding doing a literature review is very similar to the art of avoiding deep cleaning your house: Keep it tidy on a daily basis. (Just like with deep cleaning your house, you probably still need to do a proper deep dive into the literature from time to time, just not as frequently as you would if you didn't have a routine of daily up-keep). Here are some ideas for "keeping up with the literature":
 
