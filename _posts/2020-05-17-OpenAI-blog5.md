@@ -2,7 +2,7 @@
 
 The [OpenAI Scholars](https://openai.com/blog/openai-scholars-spring-2020/), and I among them, recently completed a project proposal for the second half of our program. Having recently finished a PhD, writing a proposal and doing the requisite literature review, should be second nature. But literature reviews were always my least favorite part of research.
 
-Fortunately, I'm in good company. In a previous life as a young aspiring neuroscientist, I once attended a talk by [David Hubel](https://www.nobelprize.org/prizes/medicine/1981/hubel/facts/). When asked for tips about how to "keep up with the literature", I recall that Professor Hubel responded: "You know, at some point in your career, you have to decide if you want to be a consumer - or a producer." He elaborated that he would only really look at papers that his [advisor](https://en.wikipedia.org/wiki/Stephen_Kuffler) or his long-term collaborator [Torsten Wiesel](https://en.wikipedia.org/wiki/Torsten_Wiesel) pointed him too.
+Fortunately, I'm in good company. In a previous life as a young aspiring neuroscientist, I once attended a talk by [David Hubel](https://www.nobelprize.org/prizes/medicine/1981/hubel/facts/). When asked for tips about how to "keep up with the literature", I recall that Professor Hubel responded: "You know, at some point in your career, you have to decide if you want to be a consumer - or a producer." He elaborated that he would only really look at papers that his [advisor](https://en.wikipedia.org/wiki/Stephen_Kuffler) or his long-term collaborator [Torsten Wiesel](https://en.wikipedia.org/wiki/Torsten_Wiesel) pointed him to.
 
 ![](/images/hubel.jpg "David Hubel was also not a fan of literature reviews. He turned out OK.")
 
