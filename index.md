@@ -1,6 +1,6 @@
 # Katarina Slama
 
-<img src="images/slama-headshot-2019-bw-small.jpg" alt="Kata" width="200"/>
+<img src="images/slama-headshot-2019-bw-small.jpg" alt="Kata" width="250"/>
 
 I am currently studying deep learning as a member of the [OpenAI Scholars Program](https://openai.com/blog/openai-scholars-spring-2020/).
 This is the home of my blog.
