@@ -1,7 +1,9 @@
 # Katarina Slama
 
 <!-- Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images: -->
-![](images/slama-headshot-2019-bw.jpg)
+![]({{site.baseurl}}/images/slama-headshot-2019-bw.jpg "https://github.com/katarinaslama/katarinaslama.github.io")
+
+<!-- ({{site.baseurl}}/images/diagram.png "https://github.com/fastai/fastpages") -->
 
 I am currently studying deep learning as a member of the [OpenAI Scholars Program](https://openai.com/blog/openai-scholars-spring-2020/).
 This is the home of my blog.
