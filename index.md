@@ -1,8 +1,9 @@
 # Katarina Slama
 
 <!-- Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images: -->
-![](images/slama-headshot-2019-bw-small.jpg =100x100)
-
+<!-- ![](images/slama-headshot-2019-bw-small.jpg =100x100) -->
+<img src="images/slama-headshot-2019-bw-small.jpg" alt="drawing" width="200"/>
+<!-- https://github.com/katarinaslama/katarinaslama.github.io/blob/master/images/slama-headshot-2019-bw-small.jpg -->
 --testing 4 --
 <!-- ![Image of fast.ai logo](images/logo.png) -->
 
