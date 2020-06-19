@@ -118,7 +118,7 @@ To actually plot the figure, we need to use the `matplotlib` library (`plt` belo
 
 
 ```python
-plt.imshow(tvu_fig.permute(1, 2, 0).data.numpy()) 
+plt.imshow(tvu_fig.permute(1, 2, 0).data.numpy())
 plt.axis('off')
 pass
 ```
@@ -148,7 +148,7 @@ Now that we have the data, and we have confirmed to ourselves that it looks as w
 A good model to start with when you have discrete labels (in the case of the MNIST dataset, we have 10, one for each digit), is a logistic regression. But notice that the way we define a model in `PyTorch` (as below) is very general, and you can plug in all sorts of exciting models into this general code skeleton.
 
 The defining features of a `PyTorch` module are the `__init__` and `forward` methods. In the `init` method, we define the model, i.e. the network architecture, by specifying any functions that we are planning to use.
-In the `forward` method, we specify *how*, i.e. in what order, we want to apply those functions. 
+In the `forward` method, we specify *how*, i.e. in what order, we want to apply those functions.
 
 
 ```python
@@ -174,11 +174,11 @@ def eval_loop(model, test_loader):
     # Set the model to evaluation mode. This saves a lot of computational work, because we don't need to compute
     # when we evaluate the model.
     model.eval()
-    
+
     # Initialize a list to store accuracy values
     acc = []
     # Iterate through the test loader. Use tqdm to display our progress.
-    for this_batch, these_labels in tqdm(test_loader, 
+    for this_batch, these_labels in tqdm(test_loader,
                                          leave=False):
         # Get model predictions for each batch.
         pred = model(this_batch)
@@ -203,7 +203,7 @@ Then, we create an optimizer, whom we will name `opt`. We choose the `Adam` opti
 
 
 ```python
-opt = torch.optim.Adam(model.parameters(), 
+opt = torch.optim.Adam(model.parameters(),
                        lr=1e-3)
 ```
 
@@ -232,13 +232,13 @@ Next, we loop through our epochs to train the model, while monitoring performanc
 
 
 ```python
-for e in tqdm(range(epochs), 
+for e in tqdm(range(epochs),
               leave=True):
     # We set the model to "train" mode, which means that we will compute the gradient that we need, and update the weights.
     model.train()
     # We loop through all the batches in our train loader.
     for this_batch, these_labels in tqdm(train_loader, leave=False):
-        # We want to set the gradient to 0 between each batch (weight update). Otherwise, PyTorch accumulates them, 
+        # We want to set the gradient to 0 between each batch (weight update). Otherwise, PyTorch accumulates them,
         # and bad things happen.    
         opt.zero_grad()
         # We compute model predictions by applying the model to a batch of data.
@@ -248,13 +248,13 @@ for e in tqdm(range(epochs),
         loss = crit(pred, these_labels)
         # We use the "backward" command to compute the gradient that we need for updating the model.
         loss.backward()
-        # We use the "step" command to actually update the model. 
+        # We use the "step" command to actually update the model.
         opt.step()
-    
+
     # Now that we have an updated model, after having seen all the data once, we evaluate how well the model is doing
     # on the heldout test set, by calling our "eval_loop" from above.
     acc = eval_loop(model, test_loader)
-    
+
     # And we print the results. If things are going well, the loss should be going down, and the accuracy should be going up.
     print('**epoch**: ', e)
     print('training loss: ', loss.detach().numpy())
