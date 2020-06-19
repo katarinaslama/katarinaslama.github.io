@@ -4,7 +4,7 @@ Over the course of the [OpenAI Scholars program](https://openai.com/blog/openai-
 
 Since they were useful to me, I see no reason not to share them with you. :-)
 
-This is the very first tutorial, which we did a couple of months back. It is a very basic ("fundamental", if you will) ML example: Training a logistic regression classifier to separate digits of the [MNIST dataset](https://en.wikipedia.org/wiki/MNIST_database).
+This is the very first tutorial, which we did a couple of months back. It's a common beginners' machine learning example: Training a logistic regression classifier to separate digits of the [MNIST dataset](https://en.wikipedia.org/wiki/MNIST_database).
 
 If you're interested in a more verbose discussion about datasets and dataloaders in `PyTorch`, I recommend an [earlier blog post I wrote on this topic](https://katarinaslama.github.io/2020/04/02/OpenAI-blog3/).
 
