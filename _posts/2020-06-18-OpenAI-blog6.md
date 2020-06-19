@@ -236,7 +236,7 @@ for e in tqdm(range(epochs),
         opt.zero_grad()
         # We compute model predictions by applying the model to a batch of data.
         pred = model(this_batch)
-        # Once, we have the predictions, we calculate how bad they are by computing the loss (CrossEntropyLoss from above)
+        # Once we have the predictions, we calculate how bad they are by computing the loss (CrossEntropyLoss from above)
         # between the predictions and the true labels.
         loss = crit(pred, these_labels)
         # We use the "backward" command to compute the gradient that we need for updating the model.
