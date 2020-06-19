@@ -211,15 +211,8 @@ We choose a criterion, `crit`, also known as a [loss function](https://en.wikipe
 
 
 ```python
-crit == nn.CrossEntropyLoss()
+crit = nn.CrossEntropyLoss()
 ```
-
-
-
-
-    False
-
-
 
 We will train for 10 [epochs](https://machinelearningmastery.com/difference-between-a-batch-and-an-epoch/). In one epoch you loop through all of your training data once. You might try training with more epochs and see if that helps performance.
 
@@ -260,118 +253,6 @@ for e in tqdm(range(epochs),
     print('training loss: ', loss.detach().numpy())
     print('test accuracy: ', acc)
 ```
-
-
-    HBox(children=(IntProgress(value=0, max=10), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=468), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=78), HTML(value='')))
-
-
-    **epoch**:  0
-    training loss:  0.35944033
-    test accuracy:  0.9014423076923077
-
-
-
-    HBox(children=(IntProgress(value=0, max=468), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=78), HTML(value='')))
-
-
-    **epoch**:  1
-    training loss:  0.2547243
-    test accuracy:  0.9147636217948718
-
-
-
-    HBox(children=(IntProgress(value=0, max=468), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=78), HTML(value='')))
-
-
-    **epoch**:  2
-    training loss:  0.22368403
-    test accuracy:  0.9137620192307693
-
-
-
-    HBox(children=(IntProgress(value=0, max=468), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=78), HTML(value='')))
-
-
-    **epoch**:  3
-    training loss:  0.35066307
-    test accuracy:  0.9158653846153846
-
-
-
-    HBox(children=(IntProgress(value=0, max=468), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=78), HTML(value='')))
-
-
-    **epoch**:  4
-    training loss:  0.2183309
-    test accuracy:  0.9183693910256411
-
-
-
-    HBox(children=(IntProgress(value=0, max=468), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=78), HTML(value='')))
-
-
-    **epoch**:  5
-    training loss:  0.37913102
-    test accuracy:  0.9142628205128205
-
-
-
-    HBox(children=(IntProgress(value=0, max=468), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=78), HTML(value='')))
-
-
-    **epoch**:  6
-    training loss:  0.27817988
-    test accuracy:  0.9207732371794872
-
-
-
-    HBox(children=(IntProgress(value=0, max=468), HTML(value='')))
-
-
-
-    HBox(children=(IntProgress(value=0, max=78), HTML(value='')))
-
-
-    **epoch**:  7
-    training loss:  0.22053611
-    test accuracy:  0.9217748397435898
-
-
-
-    HBox(children=(IntProgress(value=0, max=468), HTML(value='')))
-
 
 ### You're done!
 
