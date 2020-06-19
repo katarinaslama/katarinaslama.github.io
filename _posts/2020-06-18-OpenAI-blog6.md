@@ -26,14 +26,12 @@ import torchvision.utils as tvu
 
 import numpy as np
 import pandas as pd
+from tqdm.notebook import tqdm
 ```
 
-([`tqdm`](https://pypi.org/project/tqdm/) is a really cool package that I learned about during the program. It makes a handy progress bar for your network training. Also, the name of the package derives from the Arabic word root ["qadama", to precede](https://cooljugator.com/ar/%D9%82%D8%AF%D9%85), and here it means "progress". So "taqaddum" helps you track your network's progress.)
-
+[`tqdm`](https://pypi.org/project/tqdm/) is a really cool package that I learned about during the program. It makes a handy progress bar for your network training. Also, the name of the package derives from the Arabic word root ["qadama", to precede](https://cooljugator.com/ar/%D9%82%D8%AF%D9%85), and here it means "progress". So "taqaddum" helps you track your network's progress.
 
 ```python
-from tqdm.notebook import tqdm
-
 import matplotlib.pyplot as plt
 %matplotlib inline
 ```
