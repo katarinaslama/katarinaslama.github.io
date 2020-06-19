@@ -1,4 +1,4 @@
-# OpenAI Scholars: Pair Programming 1 - A logistic regression classifier for MNIST
+# OpenAI Scholars: Sixth Steps - A PyTorch Tutorial
 
 Over the course of the [OpenAI Scholars program](https://openai.com/blog/openai-scholars-spring-2020/), my mentor [Johannes](https://jotterbach.github.io/) has given me a number of very helpful pair programming tutorials to improve my facility with `PyTorch`.
 
