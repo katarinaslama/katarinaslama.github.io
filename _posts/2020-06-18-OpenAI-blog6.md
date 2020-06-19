@@ -122,9 +122,9 @@ plt.imshow(tvu_fig.permute(1, 2, 0).data.numpy())
 plt.axis('off')
 pass
 ```
+![](/images/mnist-examples.png)
 
-
-![png](blog6-2020-06-18_files/blog6-2020-06-18_21_0.png)
+<!-- ![png](blog6-2020-06-18_files/blog6-2020-06-18_21_0.png) -->
 
 
 We can also take a look at the labels, corresponding to the data.
