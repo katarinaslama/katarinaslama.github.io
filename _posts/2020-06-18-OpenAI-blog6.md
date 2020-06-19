@@ -40,7 +40,7 @@ import matplotlib.pyplot as plt
 
 ### Torvision datasets
 
-The `torchvision.datasets` package (here, `ds`) has a method for downloading a nicely curated version of the MNIST dataset, which we can use for learning. We start by defining a root directory, where we will store the data. (It does not need to exist on your computer yet. `PyTorch` will create it for you if you don't have it.
+The `torchvision.datasets` package (here, `ds`) has a method for downloading a nicely curated version of the MNIST dataset, which we can use for learning. We start by defining a root directory, where we will store the data. (It does not need to exist on your computer yet. `PyTorch` will create it for you if you don't have it.)
 
 
 ```python
@@ -57,7 +57,7 @@ transforms = tr.Compose([
 ])
 ```
 
-Next, we load the MNIST data the `torchvision.datasets` package. We do so separately for the training and test sets. We apply the transforms that we defined above. We set the `download` flag to `True` because we have not downloaded this data before. (If you already have the data in your root directory, you can save some time and compute by setting it to `False`).
+Next, we load the MNIST data, using the `torchvision.datasets` package. We do so separately for the training and test sets. We apply the transforms that we defined above. We set the `download` flag to `True` because we have not downloaded this data before. (If you already have the data in your root directory, you can save some time and compute by setting it to `False`).
 
 
 ```python
@@ -116,7 +116,7 @@ tvu_fig = tvu.make_grid(this_batch[:16, ...].reshape(16, 1, 28, 28),
                         scale_each=True)
 ```
 
-To actually plot the figure, we need to use the `matplotlib` library (`plt` below), and that library only really plays nice with numpy, so we convert our `PyTorch` tensor to `NumPy` in order to plot it. Images are formatted differently in `PyTorch` than `NumPy`, so we also change the order of the image dimensions, using the `permute` method.
+To actually plot the figure, we need to use the `matplotlib` library (`plt` below), and that library only really plays nice with `NumPy`, so we convert our `PyTorch` tensor to `NumPy` in order to plot it. Images are formatted differently in `PyTorch` than `NumPy`, so we also change the order of the image dimensions, using the `permute` method.
 
 
 ```python
@@ -149,7 +149,7 @@ Now that we have the data, and we have confirmed to ourselves that it looks as w
 
 A good model to start with when you have discrete labels (in the case of the MNIST dataset, we have 10, one for each digit), is a logistic regression. But notice that the way we define a model in `PyTorch` (as below) is very general, and you can plug in all sorts of exciting models into this general code skeleton.
 
-The defining features of a `PyTorch` module are the `__init__` and `forward` methods. In the `init` method, we define the model, i.e. the network architecture, by specifying any functions that we are planning to use.
+The defining features of a `PyTorch` module are the `__init__` and `forward` methods. In the `__init__` method, we define the model, i.e. the network architecture, by specifying any functions that we are planning to use.
 In the `forward` method, we specify *how*, i.e. in what order, we want to apply those functions.
 
 
