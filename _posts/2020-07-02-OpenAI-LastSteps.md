@@ -46,9 +46,9 @@ The raw data was segmented into 10-minute epochs, each of which were labeled Pre
 
 We treated each recording electrode as a separate example, because this yielded more training examples, and also allowed us to work around the fact that the number of electrodes was inconsistent between subjects. We additionally segmented each 10-minute epoch into 20-second epochs (Figure 1). This yielded 126,300 preictal, and 1,750,020 interictal examples. In total, 6.7% of the dataset were targets. In the original dataset, these were not homogeneously distributed across the subjects (Figure 2).
 
-![](/images/writeup/class-imbalance/class-imbalance-1 "Figure 2.1. Original dataset, including class imbalances.")
+![](/images/writeup/class-imbalance/class-imbalance-1.png "Figure 2.1. Original dataset, including class imbalances.")
 
-![](/images/writeup/class-imbalance/class-imbalance-2 "Figure 2.2. Class- and subject-balanced dataset.")
+![](/images/writeup/class-imbalance/class-imbalance-2.png"Figure 2.2. Class- and subject-balanced dataset.")
 
 ## Results
 
