@@ -60,7 +60,8 @@ As a baseline model, I used a logistic regression with batch normalization. This
 
 My best performing model was a ResNet18 architecture (not pre-trained). It reached an accuracy of 0.69 and ROC-AUC of 0.77. The ROC and precision-recall curves, as well as the associated confusion matrix, are presented in Figure 3. I found that the best performance was reached with a learning rate of 0.001 and batch size of 8.
 
-![](/images/writeup/preprocessing-pipeline.jpg "Figure 3.1. ROC curve..")
+![](/images/writeup/ROC-curve "Figure 3.1. ROC curve.")
+![](/images/writeup/PR-curve "Figure 3.2. Precision-recall curve.")
 
 ## Discussion
 
