@@ -1,6 +1,6 @@
 # OpenAI Scholars: Last Steps - A Seizure Prediction Project
 
-This is a writeup of my OpenAI Scholars Project. I would love to hear any feedback you may have. Enjoy!
+This is a writeup, describing my OpenAI Scholars Project. I would love to hear any feedback you may have. Enjoy!
 
 ## Abstract
 
@@ -16,7 +16,7 @@ The overarching question of my project was: Can we predict future epileptic seiz
 
 ### Importance
 
-Epilepsy affects more than 46 million people globally (Cooper et al., 2019). Its prevalence is greater than 0.6% of the world’s population (Cooper et al., 2019; Vaughan et al., 2019), and it disproportionately affects lower-income countries (Vaughan et al., 2019). Between 20 and 40% of epileptic patients suffer from drug-resistant epilepsy (Vaughan et al., 2019).
+Epilepsy affects more than 46 million people globally (Cooper et al., 2019). Its [prevalence](https://www.medicinenet.com/script/main/art.asp?articlekey=11697) is greater than 0.6% of the world’s population (Cooper et al., 2019; Vaughan et al., 2019), and it disproportionately affects lower-income countries (Vaughan et al., 2019). Between 20 and 40% of epileptic patients suffer from drug-resistant epilepsy (Vaughan et al., 2019).
 Patients with epilepsy experience higher rates of physical injuries including drowning, head trauma, and car accidents; and mental health problems including anxiety, depression, and suicide than the general population (Tomson et al., 2004; van den Broek et al., 2004; Mahler et al., 2018; Cengiz et al., 2019; Liu et al., 2020). These problems can in part be attributed to the unpredictable nature of seizures (Berg et al., 2019). It has been proposed that seizure prediction devices can help reduce the secondary adverse outcomes associated with epilepsy, most notably anxiety related to upcoming seizures (Thompson et al., 2019; Chiang et al., 2020).
 Some patients with drug-resistant epilepsy choose to have resective surgery, which entails removing the affected brain tissue to control their seizures. If we can improve models for seizure prediction, that could open the path to more effective closed-loop brain stimulation treatments (reviewed in Dümpelmann, 2019). This, in turn, could enable some patients with drug-resistant epilepsy - who might otherwise choose resective surgery - to retain more brain tissue while still controlling their seizures.
 
@@ -43,6 +43,10 @@ I used a publicly available epilepsy dataset provided by the American Epilepsy S
 The raw data was segmented into 10-minute epochs, each of which were labeled Preictal (target, N=265) or Interictal (non-target, N=3,674). Each epoch was a matrix of shape time x electrode. For the purposes of this project, I used the spectrogram representation of each electrode time-series separately, as an image of shape time x frequency. We used the spectrogram representation of the neural time-series (Figure 2). One motivation for using this representation is that electrical oscillations are ubiquitous in the brain, and there is a long history of studying them in neuroscience. Neural oscillations are viewed as one putative mechanism by which the brain computes (see Buzsaki, 2006). The evolution of spectral power in different frequency bands over time are best represented in spectrograms. Hence, the spectrogram can be viewed as a “natural” and appropriate representation of neural data. (A similar argument can be made for sound).
 
 We treated each recording electrode as a separate example, because this yielded more training examples, and also allowed us to work around the fact that the number of electrodes was inconsistent between subjects. We additionally segmented each 10-minute epoch into 20-second epochs (Figure 3). This yielded 126,300 preictal, and 1,750,020 interictal examples. In total, 6.7% of the dataset were targets. In the original dataset, these were not homogeneously distributed across the subjects (Figure 1).
+
+![](/images/writeup/class-imbalance-1 "Figure 1.1. Original dataset, including class imbalances.")
+
+![](/images/writeup/class-imbalance-2 "Figure 1.2. Class- and subject-balanced dataset.")
 
 ## Results
 
@@ -79,7 +83,7 @@ I look forward to continuing to work on this project, and seeing where it takes 
 
 ## Acknowledgements
 
-I am grateful to my mentor Johannes for being my project advisor, pair programming tutor, and neural network debugging co-pilot for the past several months. I am extremely appreciative to OpenAI, especially Greg Brockman and Sam Altman, for the existence of the OpenAI Scholars Program - and for having had the opportunity to participate in it. I thank our program coordinators, Christina Hendrickson and Muraya Maigua, for all the work and care that they’ve poured into our program this spring. I am grateful to my fellow Scholars, Alethea, Pamela, Kamal, Jordi, Andre, and Cathy, for their authenticity, intelligence, and kindness: They have been an invaluable community to me, especially given the global events that played out this year. I thank the Clarity Team, especially Ludwig Schubert and Chris Olah, and the Reflection Team, especially Paul Christiano, for great research ideas. Finally, I thank all the awesome OpenAI folks that I met and had entertaining and educational conversations with, starting with lunches in the office, and then over virtual “donut calls”. So long, and thanks for all the donuts!
+I am grateful to my mentor [Johannes](https://jotterbach.github.io/) for being my project advisor, pair programming tutor, and neural network debugging co-pilot for the past several months. I am extremely appreciative to OpenAI, especially Greg Brockman and Sam Altman, for the existence of the OpenAI Scholars Program - and for having had the opportunity to participate in it. I thank our program coordinators, Christina Hendrickson and Muraya Maigua, for all the work and care that they’ve poured into our program this spring. I am grateful to my fellow Scholars, Alethea, Pamela, Kamal, Jordi, Andre, and Cathy, for their authenticity, intelligence, and kindness: They have been an invaluable community to me, especially given the global events that played out this year. I thank the Clarity Team, especially Ludwig Schubert and Chris Olah, and the Reflection Team, especially Paul Christiano, for great research ideas. Finally, I thank all the awesome OpenAI folks that I met and had entertaining and educational conversations with, starting with lunches in the office, and then over virtual “donut calls”. So long, and thanks for all the donuts!
 
 ## References
 
