@@ -1,6 +1,6 @@
 # OpenAI Scholars: Last Steps - A Seizure Prediction Project
 
-This is a writeup, describing my OpenAI Scholars Project. I would love to hear any feedback you may have. Enjoy!
+This is a description of my OpenAI Scholars Project. I would love to hear any feedback you may have. Enjoy!
 
 ## Abstract
 
@@ -40,13 +40,15 @@ As a baseline model, I used a logistic regression with batch normalization. I us
 ### Dataset
 
 I used a publicly available epilepsy dataset provided by the American Epilepsy Society and Kaggle. The dataset consisted of intracranial recordings from N=5 dogs and N=2 human participants. For the current project, we restricted analyses to the five dogs’ data.
-The raw data was segmented into 10-minute epochs, each of which were labeled Preictal (target, N=265) or Interictal (non-target, N=3,674). Each epoch was a matrix of shape time x electrode. For the purposes of this project, I used the spectrogram representation of each electrode time-series separately, as an image of shape time x frequency. We used the spectrogram representation of the neural time-series (Figure 2). One motivation for using this representation is that electrical oscillations are ubiquitous in the brain, and there is a long history of studying them in neuroscience. Neural oscillations are viewed as one putative mechanism by which the brain computes (see Buzsaki, 2006). The evolution of spectral power in different frequency bands over time are best represented in spectrograms. Hence, the spectrogram can be viewed as a “natural” and appropriate representation of neural data. (A similar argument can be made for sound).
+The raw data was segmented into 10-minute epochs, each of which were labeled Preictal (target, N=265) or Interictal (non-target, N=3,674). Each epoch was a matrix of shape time x electrode. For the purposes of this project, I used the spectrogram representation of each electrode time-series separately, as an image of shape time x frequency. We used the spectrogram representation of the neural time-series (Figure 1). One motivation for using this representation is that electrical oscillations are ubiquitous in the brain, and there is a long history of studying them in neuroscience. Neural oscillations are viewed as one putative mechanism by which the brain computes (see Buzsaki, 2006). The evolution of spectral power in different frequency bands over time are best represented in spectrograms. Hence, the spectrogram can be viewed as a “natural” and appropriate representation of neural data. (A similar argument can be made for sound).
 
-We treated each recording electrode as a separate example, because this yielded more training examples, and also allowed us to work around the fact that the number of electrodes was inconsistent between subjects. We additionally segmented each 10-minute epoch into 20-second epochs (Figure 3). This yielded 126,300 preictal, and 1,750,020 interictal examples. In total, 6.7% of the dataset were targets. In the original dataset, these were not homogeneously distributed across the subjects (Figure 1).
+![](/images/writeup/preprocessing-pipeline.jpg "Figure 1. Data preprocessing pipeline. Note that this is a cartoon, and the simulated neural signal is deliberately simplified to illustrate our approach.")
 
-![](/images/writeup/class-imbalance/class-imbalance-1 "Figure 1.1. Original dataset, including class imbalances.")
+We treated each recording electrode as a separate example, because this yielded more training examples, and also allowed us to work around the fact that the number of electrodes was inconsistent between subjects. We additionally segmented each 10-minute epoch into 20-second epochs (Figure 1). This yielded 126,300 preictal, and 1,750,020 interictal examples. In total, 6.7% of the dataset were targets. In the original dataset, these were not homogeneously distributed across the subjects (Figure 2).
 
-![](/images/writeup/class-imbalance/class-imbalance-2 "Figure 1.2. Class- and subject-balanced dataset.")
+![](/images/writeup/class-imbalance/class-imbalance-1 "Figure 2.1. Original dataset, including class imbalances.")
+
+![](/images/writeup/class-imbalance/class-imbalance-2 "Figure 2.2. Class- and subject-balanced dataset.")
 
 ## Results
 
