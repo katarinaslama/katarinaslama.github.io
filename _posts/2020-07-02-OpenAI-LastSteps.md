@@ -48,7 +48,7 @@ We treated each recording electrode as a separate example, because this yielded 
 
 ![](/images/writeup/class-imbalance/class-imbalance-1.png "Figure 2.1. Original dataset, including class imbalances.")
 
-![](/images/writeup/class-imbalance/class-imbalance-2.png"Figure 2.2. Class- and subject-balanced dataset.")
+![](/images/writeup/class-imbalance/class-imbalance-2.png "Figure 2.2. Class- and subject-balanced dataset.")
 
 ## Results
 
