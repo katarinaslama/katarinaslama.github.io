@@ -88,57 +88,51 @@ I am grateful to my mentor [Johannes](https://jotterbach.github.io/) for being m
 ## References
 
 Bartolomei, F., Chauvel, P., & Wendling, F. (2008). Epileptogenicity of brain structures in human temporal lobe epilepsy: a quantified study from intracerebral EEG. Brain, 131(7), 1818–1830. https://doi.org/10.1093/brain/awn111
-Berg, A. T., Kaiser, K., Dixon-Salazar, T., Elliot, A., McNamara, N., Meskis, M. A., Golbeck, E.,
-    Tatachar, P., Laux, L., Raia, C., Stanley, J., Luna, A., & Rozek, C. (2019). Seizure burden
-    in severe early-life epilepsy: Perspectives from parents. Epilepsia Open, 4(2), 293–301.
-    https://doi.org/10.1002/epi4.12319
+
+Berg, A. T., Kaiser, K., Dixon-Salazar, T., Elliot, A., McNamara, N., Meskis, M. A., Golbeck, E., Tatachar, P., Laux, L., Raia, C., Stanley, J., Luna, A., & Rozek, C. (2019). Seizure burden
+in severe early-life epilepsy: Perspectives from parents. Epilepsia Open, 4(2), 293–301.
+https://doi.org/10.1002/epi4.12319
+
 Buzsáki, G. Rhythms of the Brain (Oxford Univ. Press, New York, 2006)
-Cengiz, O., Atalar, A. Ç., Tekin, B., Bebek, N., Baykan, B., & Gürses, C. (2019). Impact of
-    seizure-related injuries on quality of life. Neurological Sciences, 40(3), 577–583.
-    https://doi.org/10.1007/s10072-018-3697-3
-Chiang, S., Moss, R., Patel, A. D., & Rao, V. R. (2020). Seizure detection devices and
-    health-related quality of life: A patient- and caregiver-centered evaluation. Epilepsy &
-    Behavior, 105, 106963. https://doi.org/https://doi.org/10.1016/j.yebeh.2020.106963
-Cooper, C., GBD 2016 Neurology Collaborators (2019). Global, regional, and national burden of
-    neurological disorders, 1990-2016: A systematic analysis for the Global Burden of
-    Disease Study 2016. The Lancet Neurology, 18(4), 357–375.
+Cengiz, O., Atalar, A. Ç., Tekin, B., Bebek, N., Baykan, B., & Gürses, C. (2019). Impact of seizure-related injuries on quality of life. Neurological Sciences, 40(3), 577–583. https://doi.org/10.1007/s10072-018-3697-3
+
+Chiang, S., Moss, R., Patel, A. D., & Rao, V. R. (2020). Seizure detection devices and health-related quality of life: A patient- and caregiver-centered evaluation. Epilepsy & Behavior, 105, 106963. https://doi.org/https://doi.org/10.1016/j.yebeh.2020.106963
+
+Cooper, C., GBD 2016 Neurology Collaborators (2019). Global, regional, and national burden of neurological disorders, 1990-2016: A systematic analysis for the Global Burden of Disease Study 2016. The Lancet Neurology, 18(4), 357–375.
+
 De Clercq, W., Lemmerling, P., Van Huffel, S., & Van Paesschen, W. (2003). Anticipation of epileptic seizures from standard EEG recordings. The Lancet, 361, 970–971.
+
 Dümpelmann, M. (2019). Early seizure detection for closed loop direct neurostimulation devices in epilepsy. Journal of Neural Engineering, 16(4), 41001. https://doi.org/10.1088/1741-2552/ab094a
-He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition.
-    Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern
-    Recognition, 2016-Decem, 770–778. https://doi.org/10.1109/CVPR.2016.90
+
+He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition, 2016-Decem, 770–778. https://doi.org/10.1109/CVPR.2016.90
+
 Kuhlmann, L., Lehnertz, K., Richardson, M. P., Schelter, B., & Zaveri, H. P. (2018). Seizure prediction — ready for a new era. Nature Reviews Neurology, 14(10), 618–630. https://doi.org/10.1038/s41582-018-0055-2
+
 Lehnertz, K., & Elger, C. E. (1998). Can epileptic seizures be predicted? evidence from nonlinear time series analysis of brain electrical activity. Physical Review Letters, 80(22), 5019–5022. https://doi.org/10.1103/PhysRevLett.80.5019
-Liu, X., Chen, H., & Zheng, X. (2020). Effects of seizure frequency, depression and generalized
-    anxiety on suicidal tendency in people with epilepsy. Epilepsy Research, 160, 106265.
-    https://doi.org/https://doi.org/10.1016/j.eplepsyres.2020.106265
-Mahler, B., Carlsson, S., Andersson, T., & Tomson, T. (2018). Risk for injuries and accidents in
-    epilepsy. Neurology, 90(9), e779 LP-e789.
-    https://doi.org/10.1212/WNL.0000000000005035
-Mormann, F., Andrzejak, R. G., Kreuz, T., Rieke, C., David, P., Elger, C. E., & Lehnertz, K.
-    (2003). Automated detection of a preseizure state based on a decrease in
-    synchronization in intracranial electroencephalogram recordings from epilepsy patients.
-    Physical Review E - Statistical Physics, Plasmas, Fluids, and Related Interdisciplinary
-    Topics, 67(2), 10. https://doi.org/10.1103/PhysRevE.67.021912
+
+Liu, X., Chen, H., & Zheng, X. (2020). Effects of seizure frequency, depression and generalized anxiety on suicidal tendency in people with epilepsy. Epilepsy Research, 160, 106265. https://doi.org/https://doi.org/10.1016/j.eplepsyres.2020.106265
+
+Mahler, B., Carlsson, S., Andersson, T., & Tomson, T. (2018). Risk for injuries and accidents in epilepsy. Neurology, 90(9), e779 LP-e789. https://doi.org/10.1212/WNL.0000000000005035
+
+Mormann, F., Andrzejak, R. G., Kreuz, T., Rieke, C., David, P., Elger, C. E., & Lehnertz, K. (2003). Automated detection of a preseizure state based on a decrease in synchronization in intracranial electroencephalogram recordings from epilepsy patients. Physical Review E - Statistical Physics, Plasmas, Fluids, and Related Interdisciplinary Topics, 67(2), 10. https://doi.org/10.1103/PhysRevE.67.021912
+
 Rasheed, K., Qayyum, A., Qadir, J., Sivathamboo, S., Kwan, P., Kuhlmann, L., O’Brien, T., & Razi, A. (2020). Machine Learning for Predicting Epileptic Seizures Using EEG Signals: A Review. 1–15. http://arxiv.org/abs/2002.01925
+
 Mormann, F., Kreuz, T., Rieke, C., Andrzejak, R. G., Kraskov, A., David, P., Elger, C. E., & Lehnertz, K. (2005). On the predictability of epileptic seizures. Clinical Neurophysiology, 116(3), 569–587. https://doi.org/10.1016/j.clinph.2004.08.025
+
 Ruffini, G., Ibañez, D., Castellano, M., Dubreuil-Vall, L., Soria-Frisch, A., Postuma, R., Gagnon, J. F., & Montplaisir, J. (2019). Deep learning with EEG spectrograms in rapid eye movement behavior disorder. Frontiers in Neurology, 10(JUL), 1–9. https://doi.org/10.3389/fneur.2019.00806
+
 Selbst, A. D., & Barocas, S. (2018). The intuitive appeal of explainable machines. Fordham Law Review, 87(3), 1085–1139. https://doi.org/10.2139/ssrn.3126971
-Thompson, M. E., Langer, J., & Kinfe, M. (2019). Seizure detection watch improves quality of life
-    for adolescents and their families. Epilepsy & Behavior, 98, 188–194.
-    https://doi.org/https://doi.org/10.1016/j.yebeh.2019.07.028
-Tomson, T., Beghi, E., Sundqvist, A., & Johannessen, S. I. (2004). Medical risks in epilepsy: a
-    review with focus on physical injuries, mortality, traffic accidents and their prevention.
-    Epilepsy Research, 60(1), 1–16.
-    https://doi.org/https://doi.org/10.1016/j.eplepsyres.2004.05.004
+
+Thompson, M. E., Langer, J., & Kinfe, M. (2019). Seizure detection watch improves quality of life for adolescents and their families. Epilepsy & Behavior, 98, 188–194. https://doi.org/https://doi.org/10.1016/j.yebeh.2019.07.028
+
+Tomson, T., Beghi, E., Sundqvist, A., & Johannessen, S. I. (2004). Medical risks in epilepsy: a review with focus on physical injuries, mortality, traffic accidents and their prevention. Epilepsy Research, 60(1), 1–16. https://doi.org/https://doi.org/10.1016/j.eplepsyres.2004.05.004
+
 van den Broek, M., Beghi, E., &  Res.-1. Group (2004). Accidents in Patients with Epilepsy:
-    Types, Circumstances, and Complications: A European Cohort Study. Epilepsia, 45(6),
-    667–672. https://doi.org/10.1111/j.0013-9580.2004.33903.x
+Types, Circumstances, and Complications: A European Cohort Study. Epilepsia, 45(6), 667–672. https://doi.org/10.1111/j.0013-9580.2004.33903.x
+
 Le Van Quyen, M., Martinerie, J., Navarro, V., Boon, P., D’Havé, M., Adam, C., Renault, B., Varela, F., & Baulac, M. (2001). Anticipation of epileptic seizures from standard EEG recordings. The Lancet, 357(9251), 183–188. https://doi.org/https://doi.org/10.1016/S0140-6736(00)03591-1
-Vaughan, K. A., Ramos, C. L., Buch, V. P., Mekary, R. A., Amundson, J. R., Shah, M., Rattani,
-    A., Dewan, M. C., & Park, K. B. (2019). An estimation of global volume of surgically
-    treatable epilepsy based on a systematic review and meta-analysis of epilepsy. Journal
-    of Neurosurgery, 130(4), 1127–1141. https://doi.org/10.3171/2018.3.JNS171722
-Wang, S., Chaovalitwongse, W. A., & Wong, S. (2013). Online seizure prediction using an
-    adaptive learning approach. IEEE Transactions on Knowledge and Data Engineering,
-    25(12), 2854–2866. https://doi.org/10.1109/TKDE.2013.151
+
+Vaughan, K. A., Ramos, C. L., Buch, V. P., Mekary, R. A., Amundson, J. R., Shah, M., Rattani, A., Dewan, M. C., & Park, K. B. (2019). An estimation of global volume of surgically treatable epilepsy based on a systematic review and meta-analysis of epilepsy. Journal of Neurosurgery, 130(4), 1127–1141. https://doi.org/10.3171/2018.3.JNS171722
+
+Wang, S., Chaovalitwongse, W. A., & Wong, S. (2013). Online seizure prediction using an adaptive learning approach. IEEE Transactions on Knowledge and Data Engineering, 25(12), 2854–2866. https://doi.org/10.1109/TKDE.2013.151
