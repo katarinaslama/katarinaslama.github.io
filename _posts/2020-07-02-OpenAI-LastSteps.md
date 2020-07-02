@@ -62,7 +62,7 @@ My best performing model was a ResNet18 architecture (not pre-trained). It reach
 
 ![](/images/writeup/ROC-curve.png "Figure 3.1. ROC curve")
 ![](/images/writeup/PR-curve.png "Figure 3.2. Precision-recall curve")
-![](/images/writeup/PR-curve.png "Figure 3.3. Confusion matrix")
+![](/images/writeup/confusion-matrix.png "Figure 3.3. Confusion matrix")
 
 ## Discussion
 
