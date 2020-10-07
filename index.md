@@ -2,8 +2,7 @@
 
 <img src="images/slama-headshot-2019-bw-small.jpg" alt="Kata" width="250"/>
 
-I am currently studying deep learning as a member of the [OpenAI Scholars Program](https://openai.com/blog/openai-scholars-spring-2020/).
-This is the home of my blog.
+I am a recent [OpenAI Scholar](https://openai.com/blog/openai-scholars-spring-2020/). This is the home of my blog for the program. Stay tuned for updates on my continued deep learning journey!
 
 I have a PhD in [Neuroscience from UC Berkeley](https://neuroscience.berkeley.edu/ph-d-program/),
 where I studied [attention using intracranial recordings](https://www.biorxiv.org/content/10.1101/2020.02.29.971341v1.full.pdf)
