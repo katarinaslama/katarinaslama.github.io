@@ -2,7 +2,7 @@
 
 <img src="images/slama-headshot-2019-bw-small.jpg" alt="Kata" width="250"/>
 
-Hi! I'm Katarina and I work as a Data Scientist in the security, risk and fraud area at Intuit. Previously, I was an [OpenAI Scholar](https://openai.com/blog/openai-scholars-spring-2020/). This site contains my blog for the program. I also sometimes blog on [Medium](https://katarinaslama.medium.com/).
+Hi! I'm Katarina and I work as a Data Scientist in the security, risk and fraud area at Intuit. Previously, I was an [OpenAI Scholar](https://openai.com/blog/openai-scholars-spring-2020/). This site contains my blog for the program. I also sometimes blog on [Medium](https://katarinaslama.medium.com/) and I [tweet here](https://twitter.com/katarinaslama).
 
 I have a PhD in [Neuroscience from UC Berkeley](https://neuroscience.berkeley.edu/ph-d-program/),
 where I studied [attention using intracranial recordings](https://scholar.google.com/citations?user=mOCKfhoAAAAJ&hl=en&oi=ao)
