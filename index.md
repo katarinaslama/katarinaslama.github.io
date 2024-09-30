@@ -17,5 +17,5 @@ on research projects with [Michael J. Frank](https://www.lnccbrown.com/) (deep
   brain stimulation and moral decision-making) and [Cynthia Garcia Coll](https://www.psychologicalscience.org/observer/champions-of-psychology-cynthia-garcia-coll)
   (child development and immigration).
 
-And before I got all focused on progressively smaller building blocks of cognition, I took
+Before I got all focused on progressively smaller building blocks of cognition, I took
 a more global perspective: For my gap year before college, I worked in [this refugee camp](http://www.theborderconsortium.org/where-we-work/camps-in-thailand/mae-la-oon/), having spent my late teens at [this magical school](https://www.atlanticcollege.org/).
