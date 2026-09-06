@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Katarina Slama</title>
+<meta name="description" content="Katarina Slama does empirical AI safety and governance research: model evaluations, alignment, and the behavior of frontier models. Formerly OpenAI and the UK AI Security Institute.">
+<link rel="canonical" href="https://katarinaslama.com/">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Katarina Slama">
+<meta property="og:title" content="Katarina Slama">
+<meta property="og:description" content="Empirical AI safety and governance research: model evaluations, alignment, and the behavior of frontier models. Formerly OpenAI and the UK AI Security Institute.">
+<meta property="og:url" content="https://katarinaslama.com/">
+<meta property="og:image" content="https://katarinaslama.com/images/portrait.jpg">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="1000">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Katarina Slama">
+<meta name="twitter:description" content="Empirical AI safety and governance research: model evaluations, alignment, and the behavior of frontier models. Formerly OpenAI and the UK AI Security Institute.">
+<meta name="twitter:image" content="https://katarinaslama.com/images/portrait.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%231d2229%27/%3E%3Ctext x=%2716%27 y=%2723%27 font-family=%27Georgia,serif%27 font-size=%2719%27 fill=%27%23fff%27 text-anchor=%27middle%27%3EKS%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1d2229;
+    --ink-2: #5f6670;
+    --ink-3: #8b9199;
+    --rule: #e4e6e9;
+    --blue: #1846c7;
+    --serif: "EB Garamond", Georgia, serif;
+    --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body {
+    margin: 0;
+    background: #fff;
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--blue); text-decoration: none; }
+  a:hover, a:focus-visible { text-decoration: underline; text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; border-radius: 2px; }
+  img { display: block; max-width: 100%; height: auto; }
+
+  .page {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 64px 32px 80px;
+    display: grid;
+    grid-template-columns: 300px minmax(0, 1fr);
+    column-gap: 72px;
+  }
+
+  /* Left rail */
+  .rail { position: sticky; top: 56px; align-self: start; }
+  .rail img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+  .rail h1 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 34px;
+    letter-spacing: 0.01em;
+    line-height: 1.1;
+    margin: 28px 0 8px;
+  }
+  .rail .role { color: var(--ink-2); font-size: 15px; margin: 0 0 24px; line-height: 1.5; }
+  .rail nav a { display: block; font-size: 15px; padding: 6px 0; border-top: 1px solid var(--rule); }
+  .rail nav a:last-child { border-bottom: 1px solid var(--rule); }
+
+  /* Main column */
+  .statement {
+    font-family: var(--serif);
+    font-size: 38px;
+    line-height: 1.25;
+    font-weight: 400;
+    margin: 0 0 32px;
+    max-width: 22ch;
+    letter-spacing: -0.005em;
+  }
+  .bio p { margin: 0 0 18px; max-width: 62ch; color: var(--ink); }
+  .bio p:last-child { margin-bottom: 0; }
+  .lead { font-weight: 500; }
+
+  section { margin-top: 64px; }
+  h2 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 26px;
+    margin: 0 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--ink);
+  }
+
+  .highlights { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+  .highlight .kicker { color: var(--ink-3); font-size: 14px; margin: 0 0 8px; }
+  .highlight h3 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.25;
+    margin: 0 0 12px;
+  }
+  .highlight p { margin: 0 0 12px; font-size: 16px; color: var(--ink-2); }
+  .highlight .links a { margin-right: 18px; font-size: 15px; }
+  .video { position: relative; aspect-ratio: 16 / 9; background: #000; margin: 0 0 14px; }
+  .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+  figure { margin: 0; }
+  figcaption { font-size: 14px; color: var(--ink-2); margin-top: 10px; line-height: 1.5; }
+
+  .pubs { list-style: none; padding: 0; margin: 0; }
+  .pubs li { padding: 14px 0; border-bottom: 1px solid var(--rule); font-size: 16px; }
+  .pubs li:last-child { border-bottom: 0; }
+  .pubs .authors { color: var(--ink-2); }
+  .pubs .venue { color: var(--ink-3); white-space: nowrap; }
+  .pubs .title { font-weight: 500; }
+  .pubs li, .talks li, .highlight h3 { overflow-wrap: break-word; }
+
+  .talks { list-style: none; padding: 0; margin: 0; }
+  .talks li { display: grid; grid-template-columns: 10em 1fr; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--rule); font-size: 16px; }
+  .talks li:last-child { border-bottom: 0; }
+  .talks .when { color: var(--ink-3); }
+  .talks .where { color: var(--ink-2); }
+
+  footer { margin-top: 72px; padding-top: 18px; border-top: 1px solid var(--rule); font-size: 14px; color: var(--ink-2); display: flex; gap: 24px; flex-wrap: wrap; }
+
+  @media (max-width: 860px) {
+    .talks li { grid-template-columns: 1fr; gap: 2px; }
+    .page { grid-template-columns: 1fr; padding: 40px 22px 60px; row-gap: 40px; }
+    .rail { position: static; display: grid; grid-template-columns: 140px 1fr; column-gap: 20px; }
+    .rail img { aspect-ratio: 4 / 5; grid-column: 1; grid-row: 1 / span 2; align-self: start; }
+    .rail h1 { grid-column: 2; align-self: end; margin: 0 0 8px; font-size: 30px; }
+    .rail .role { grid-column: 2; align-self: start; margin-bottom: 0; }
+    .rail nav { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 4px 20px; margin-top: 16px; }
+    .rail nav a, .rail nav a:last-child { border: 0; padding: 2px 0; }
+    .statement { font-size: 30px; }
+    .highlights { grid-template-columns: 1fr; }
+    section { margin-top: 48px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <aside class="rail">
+    <img src="images/portrait.jpg" alt="Katarina Slama, recording a podcast episode" width="800" height="1000">
+    <h1>Katarina Slama</h1>
+    <p class="role">AI safety and governance researcher<br>PhD, UC Berkeley. London.</p>
+    <nav aria-label="Links">
+      <a href="https://www.linkedin.com/in/katarinaslama/">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?hl=en&amp;user=mOCKfhoAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Google Scholar</a>
+      <a href="Slama_CV.pdf">CV</a>
+    </nav>
+  </aside>
+
+  <main>
+    <p class="statement">Empirical AI safety and governance research.</p>
+
+    <div class="bio">
+      <p>I do empirical research on AI safety: model evaluations, alignment, and the behavior of frontier models. I co-authored InstructGPT at OpenAI, and I led model behavior research at the UK AI Security Institute. I hold a PhD in neuroscience from UC Berkeley.</p>
+      <p>I am open to advisory roles, committee work, and speaking engagements. The best way to reach me is on <a href="https://www.linkedin.com/in/katarinaslama/">LinkedIn</a>.</p>
+    </div>
+
+    <section id="research">
+      <h2>Research</h2>
+      <div class="bio">
+        <p><span class="lead">Preferences and behavior.</span> When do a language model's own out-of-context preferences predict the actions it takes and the advice it gives? A preregistered study, <a href="https://openreview.net/forum?id=RmWSM3sFOr">published in TMLR</a>, tests this across models and settings.</p>
+        <p><span class="lead">Methodology for studying model behavior.</span> Claims about model behavior need the same evidential standards as claims about animal behavior. <a href="https://arxiv.org/abs/2507.03409">Lessons from a chimp</a> lays out what those standards should be.</p>
+        <p><span class="lead">Learning from human feedback.</span> <a href="https://arxiv.org/abs/2203.02155">InstructGPT</a> showed that RLHF can be used to teach LLMs to follow general instructions; it became the basis for ChatGPT.</p>
+        <p><span class="lead">Governing agentic systems.</span> <a href="https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf">Practices for governing agentic AI systems</a> proposes baseline safety and accountability practices for developers, deployers, and users of AI agents.</p>
+      </div>
+    </section>
+
+    <section id="highlights">
+      <h2>Recent</h2>
+      <div class="highlights">
+        <div class="highlight">
+          <p class="kicker">Paper, Transactions on Machine Learning Research, 2026</p>
+          <h3><a href="https://openreview.net/forum?id=RmWSM3sFOr">When do LLM preferences predict downstream behavior?</a></h3>
+          <p>With Alexandra Souly, Dishank Bansal, Henry Davidson, Christopher Summerfield, and Lennart Luettgau. A preregistered study of the extent to which the preferences that LLMs report predict how they act.</p>
+          <p class="links"><a href="https://openreview.net/forum?id=RmWSM3sFOr">OpenReview</a><a href="https://arxiv.org/abs/2602.18971">arXiv</a></p>
+        </div>
+        <div class="highlight">
+          <p class="kicker">Podcast, Aalto University, September 2026</p>
+          <div class="video">
+            <iframe src="https://www.youtube-nocookie.com/embed/nx0CeYeL1bM" title="Ex-OpenAI researcher on AI cyber attacks, Katarina Slama" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <h3>Ex-OpenAI researcher on AI cyber attacks</h3>
+          <p>An English-language episode of <em>Ja ihminen loi älyn</em> on my path from Berkeley to OpenAI, AI safety, and the recent autonomous AI cyber attacks.</p>
+          <p class="links"><a href="https://www.youtube.com/watch?v=nx0CeYeL1bM">YouTube</a><a href="https://open.spotify.com/episode/3mOyE3LLum4hrcUlTGIsys">Spotify</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="policy">
+      <figure>
+        <img src="images/panel.jpg" alt="Katarina Slama speaking on a roundtable panel at AI Safety Connect in Paris" width="1600" height="700">
+        <figcaption>Roundtable on frontier labs and AI safety at AI Safety Connect, Paris, 9 February 2025, with Chris Meserole (Frontier Model Forum), Michael Sellitto (Anthropic), Miles Brundage (formerly OpenAI), and Roman Yampolskiy (University of Louisville), moderated by Nicholas Dirks (New York Academy of Sciences).</figcaption>
+      </figure>
+    </section>
+
+    <section id="publications">
+      <h2>Selected publications</h2>
+      <ul class="pubs">
+        <li><span class="title"><a href="https://openreview.net/forum?id=RmWSM3sFOr">When do LLM preferences predict downstream behavior?</a></span><br><span class="authors">Slama, Souly, Bansal, Davidson, Summerfield, Luettgau.</span> <span class="venue">TMLR, 2026</span></li>
+        <li><span class="title"><a href="https://arxiv.org/abs/2507.03409">Lessons from a chimp: AI "scheming" and the quest for ape language</a></span><br><span class="authors">Summerfield, Luettgau, Dubois, Kirk, Hackenburg, Fist, Slama, Ding, Anselmetti, Strait, Giulianelli, Ududec.</span> <span class="venue">arXiv, 2025</span></li>
+        <li><span class="title"><a href="https://arxiv.org/abs/2203.02155">Training language models to follow instructions with human feedback</a></span><br><span class="authors">Ouyang, Wu, Jiang, Almeida, Wainwright, Mishkin, Zhang, Agarwal, Slama, Ray, Schulman, Hilton, Kelton, Miller, Simens, Askell, Welinder, Christiano, Leike, Lowe.</span> <span class="venue">NeurIPS, 2022</span></li>
+        <li><span class="title"><a href="https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf">Practices for governing agentic AI systems</a></span><br><span class="authors">Shavit, Agarwal, Brundage, Adler, O'Keefe, Campbell, Lee, Mishkin, Eloundou, Hickey, Slama, Ahmad, McMillan, Beutel, Passos, Robinson.</span> <span class="venue">OpenAI, 2023</span></li>
+      </ul>
+      <p style="margin:16px 0 0; font-size:15px;"><a href="https://scholar.google.com/citations?hl=en&amp;user=mOCKfhoAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Full list on Google Scholar</a></p>
+    </section>
+
+    <section id="talks">
+      <h2>Selected talks</h2>
+      <ul class="talks">
+        <li><span class="when">1 September 2026</span><span><a href="https://www.youtube.com/watch?v=nx0CeYeL1bM">Ex-OpenAI researcher on AI cyber attacks</a><br><span class="where">Podcast episode, Ja ihminen loi älyn, Aalto University, Helsinki</span></span></li>
+        <li><span class="when">22 December 2025</span><span><a href="https://www.tutke.org/">Introduction to AI Safety Institutes</a><br><span class="where">Tutke, the Finnish Center for Safe AI, Helsinki</span></span></li>
+        <li><span class="when">28 October 2025</span><span><a href="https://opendatascience.com/katarina-slama-on-ai-safety-bridging-immediate-harms-and-catastrophic-risk/">AI safety, near and far</a><br><span class="where">Opening keynote, ODSC AI West, San Francisco</span></span></li>
+        <li><span class="when">9 February 2025</span><span><a href="https://www.aisafetyconnect.org/events">Are frontier labs ready for AGI?</a><br><span class="where">Roundtable on frontier labs and AI safety, AI Safety Connect at the Paris AI Action Summit</span></span></li>
+        <li><span class="when">4 May 2023</span><span>The code interpreter: applications to data science and neuroscience<br><span class="where">Invited talk, IBM, San Francisco</span></span></li>
+      </ul>
+    </section>
+
+    <footer>
+      <span>Katarina Slama</span>
+      <a href="https://www.linkedin.com/in/katarinaslama/">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?hl=en&amp;user=mOCKfhoAAAAJ">Google Scholar</a>
+      <a href="Slama_CV.pdf">CV</a>
+    </footer>
+  </main>
+
+</div>
+</body>
+</html>
